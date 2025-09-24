@@ -6,13 +6,14 @@
     <title>Barangay Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body class="bg-gray-50">
     <x-sidebar />
     <x-header />
 
     <!-- Temporary Main Content -->
-    <main class="ml-64 mt-14 p-6">
+    <main class="ml-64 p-6">
         <h2 class="text-2xl font-bold mb-4">DASHBOARD</h2>
 
         <!-- Temporary Cards -->
