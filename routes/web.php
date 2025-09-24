@@ -16,7 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/pages/dashboard', function () {
+    return view('pages.dashboard');
+});
 
 Route::get('/admin/login', function () {
     return view('forms.login');
-})->name('admin.login');
+});

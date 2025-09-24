@@ -29,27 +29,27 @@
         <div class="bg-white border rounded-xl shadow-md p-8">
             <h2 class="text-2xl font-extrabold text-center mb-6">ADMIN LOGIN</h2>
 
-          <form method="POST" action="#">
-            @csrf
-            <div class="mb-4">
-                <input type="text" name="username" placeholder="Username"
-                    class="w-full border rounded-lg px-4 py-3 text-base focus:ring-2 focus:ring-green-300 focus:outline-none">
-            </div>
+            <form method="POST" action="#">
+                @csrf
+                <div class="mb-4">
+                    <input type="text" name="username" placeholder="Username"
+                        class="w-full border rounded-lg px-4 py-3 text-base focus:ring-2 focus:ring-green-300 focus:outline-none">
+                </div>
 
-            <div class="mb-4">
-                <input type="password" name="password" placeholder="Password"
-                    class="w-full border rounded-lg px-4 py-3 text-base focus:ring-2 focus:ring-green-300 focus:outline-none">
-            </div>
+                <div class="mb-4">
+                    <input type="password" name="password" placeholder="Password"
+                        class="w-full border rounded-lg px-4 py-3 text-base focus:ring-2 focus:ring-green-300 focus:outline-none">
+                </div>
 
-            <button type="submit"
-                class="w-full bg-green-400 hover:bg-green-500 text-black font-bold py-3 rounded-lg transition">
-                ENTER
-            </button>
+                <button type="submit"
+                    class="w-full bg-green-400 hover:bg-green-500 text-black font-bold py-3 rounded-lg transition">
+                    ENTER
+                </button>
 
-            <div class="mt-4 text-center">
-                <a href="#" class="text-blue-600 hover:underline">Forgot Password?</a>
-            </div>
-          </form>
+                <div class="mt-4 text-center">
+                    <a href="#" class="text-blue-600 hover:underline">Forgot Password?</a>
+                </div>
+            </form>
         </div>
     </div>
 </body>
