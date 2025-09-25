@@ -46,7 +46,7 @@
                 </button>
                 <!-- Forgot Password -->
                 <div class="mt-4 text-center">
-                    <a href="#" class="text-blue-600 hover:underline">Forgot Password?</a>
+                    <a href="" class="text-blue-600 hover:underline">Forgot Password?</a>
                 </div>
             </form>
         </div>
